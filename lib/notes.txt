@@ -1,0 +1,9 @@
+// handling utc
+// ask about mixin
+// ask about lazy loading 
+// ask about caching 
+
+
+ // TODO: add pages in lazy loading
+
+ utc
