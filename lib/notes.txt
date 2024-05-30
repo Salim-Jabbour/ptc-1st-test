@@ -1,9 +1,8 @@
-// handling utc
-// ask about mixin
-// ask about lazy loading 
-// ask about caching 
+NOTES:
+1. in each file there is a main method to demonstrate what I have done
+
+2. for question number one there is two folders, each for different json.
+   and there is a mixin date helper class
+   to show how I handle dates open `normally` file
 
 
- // TODO: add pages in lazy loading
-
- utc

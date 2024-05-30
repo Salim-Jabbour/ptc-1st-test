@@ -149,8 +149,11 @@ void main() {
   Map<String, dynamic> json2 = companyJson2['company'];
   CompanyTwo company2 = CompanyTwo.fromJson(json2);
   print(company2.toJson());
+
   // date review
   String formattedDate = company2.formatDate(json2['established']);
-  print(" ************************** DATE: **************************");
-  print(formattedDate);
+  print(" ************************** DATE: ************************** ");
+  print("Formatted date: $formattedDate");
+
+  company2.toLocalTime(json2['established']);
 }
